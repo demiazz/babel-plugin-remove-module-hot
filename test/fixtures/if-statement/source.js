@@ -4,6 +4,8 @@ if (module.hot) {
   console.log('Do something, when hot reload available');
 }
 
+if (module.hot) console.log('Do something, when hot reload available');
+
 if (module.hot) {
   console.log('Do something, when hot reload available');
 } else {
