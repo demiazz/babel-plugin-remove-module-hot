@@ -49,7 +49,7 @@ const variable = 'not hot';
 
 ## Warning
 
-This plugin removes only simple condition like in example, and not process more complex
+This plugin removes only simple condition like in example, and doesn't process more complex
 expressions.
 
 ## Installation
