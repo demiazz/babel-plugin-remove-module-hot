@@ -1,0 +1,51 @@
+{
+  "name": "babel-plugin-remove-module-hot",
+  "version": "1.0.0",
+  "description": "Remove `module.hot` conditions",
+  "main": "index.js",
+  "scripts": {
+    "test": "$(npm bin)/ava",
+    "test:watch": "$(npm bin)/ava --watch",
+    "test:coverage": "$(npm bin)/nyc npm test",
+    "prepublish": "$(npm bin)/babel -o index.js src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/demiazz/babel-plugin-remove-module-hot"
+  },
+  "keywords": [
+    "babel",
+    "babel-plugin"
+  ],
+  "tags": [
+    "babel",
+    "babel-plugin"
+  ],
+  "author": "Alexey Plutalov <demiazz.py@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/demiazz/babel-plugin-remove-module-hot/issues"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "babel-cli": "^6.7.5",
+    "babel-core": "^6.7.6",
+    "babel-preset-es2015-node5": "^1.2.0",
+    "babel-preset-stage-3": "^6.5.0",
+    "babel-register": "^6.7.2",
+    "nyc": "^6.4.0"
+  },
+  "ava": {
+    "files": [
+      "test/index.js"
+    ],
+    "source": [
+      "src/**/*.js"
+    ],
+    "tap": true,
+    "require": [
+      "babel-register"
+    ],
+    "babel": "inherit"
+  }
+}
