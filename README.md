@@ -1,5 +1,8 @@
 # babel-plugin-remove-module-hot
 
+  [![npm version](https://badge.fury.io/js/babel-plugin-remove-module-hot.svg)](https://badge.fury.io/js/babel-plugin-remove-module-hot)
+  [![Build Status](https://travis-ci.org/demiazz/babel-plugin-remove-module-hot.svg?branch=master)](https://travis-ci.org/demiazz/babel-plugin-remove-module-hot)
+
 Remove `module.hot` conditions.
 
 <a href="https://evilmartians.com/?utm_source=postcss">
