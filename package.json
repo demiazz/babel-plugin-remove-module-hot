@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-remove-module-hot",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Remove `module.hot` conditions",
   "main": "index.js",
   "scripts": {
