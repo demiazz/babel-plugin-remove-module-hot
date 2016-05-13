@@ -6,7 +6,7 @@ node_js:
   - "6"
 env:
   - CXX=g++-4.8
-script: npm run test:coverage
+script: npm run test
 addons:
   apt:
     sources:
